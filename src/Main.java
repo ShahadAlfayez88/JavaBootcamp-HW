@@ -4,7 +4,6 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner n = new Scanner(System.in);
-
         //1
         System.out.println("1.Write a Java program to print the sum, multiply, subtract, divide and remainder of two numbers.");
         System.out.println("Enter Two Numbers to calculate the sum, multiply, subtract, divide and remainder");
@@ -19,11 +18,11 @@ public class Main {
         System.out.println(x + "-" + y + "=" + Sup);
         System.out.println(x + "/" + y + "=" + Div);
         System.out.println(x + "%" + y + "=" + Rem);
-
+        n.nextLine();
         //2
 
         System.out.println("2.Write a Java program to convert a given string into lowercase.");
-        String Sentence = n.next();
+        String Sentence = n.nextLine();
         System.out.println(Sentence.toLowerCase());
 
 
