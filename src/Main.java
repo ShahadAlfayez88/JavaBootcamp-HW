@@ -105,26 +105,4 @@ public class Main {
                 System.out.println("You enter wrong number");
         }
 
-
-
-//        // Scanner
-////        System.out.println("Please Enter Your name");
-////        Scanner n = new Scanner(System.in);
-////        String username=n.nextLine();
-////        System.out.println("Your name is:" + username);
-//
-//        // non pirmitive string methods
-//        String name= "Shahad";
-//        System.out.println(name.equals("shahad"));
-//        System.out.println(name.length());
-//        System.out.println(name.toUpperCase());
-//
-//        //operations arthimtic, logical(comparison between boolean variables && || !), comparison
-//
-//
-//        // condtional statements if, if else, if else-if , switch
-//
-//
-//
-//    }
 }}
