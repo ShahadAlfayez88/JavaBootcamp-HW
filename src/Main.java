@@ -2,9 +2,10 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
+
         Scanner n = new Scanner(System.in);
-        Scanner s = new Scanner(System.in);
-         //1
+
+        //1
         System.out.println("1.Write a Java program to print the sum, multiply, subtract, divide and remainder of two numbers.");
         System.out.println("Enter Two Numbers to calculate the sum, multiply, subtract, divide and remainder");
         System.out.println("Enter The first number");
@@ -19,10 +20,10 @@ public class Main {
         System.out.println(x + "/" + y + "=" + Div);
         System.out.println(x + "%" + y + "=" + Rem);
 
-         //2
+        //2
 
         System.out.println("2.Write a Java program to convert a given string into lowercase.");
-        String Sentence = s.nextLine();
+        String Sentence = n.next();
         System.out.println(Sentence.toLowerCase());
 
 
@@ -39,7 +40,7 @@ public class Main {
 
         //5
         System.out.println("5.Write a program that checks the role of the user, Please enter your role: admin , superuser, user");
-        String Role=s.nextLine();
+        String Role=n.next();
 
         if(Role.equals("admin")){
             System.out.println("welcome admin");
@@ -105,4 +106,4 @@ public class Main {
                 System.out.println("You enter wrong number");
         }
 
-}}
+    }}
